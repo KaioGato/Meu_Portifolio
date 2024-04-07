@@ -84,19 +84,19 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start ;
+    justify-content: center ;
     
+  }
+  ul li div a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   ul li *{
     color: var(--gray100);
     text-decoration: none;
     font-size: 1.5rem;
-    
-  }
-  ul li i{
-    display: flex;
-    margin-left: 30%;
-   
+    padding: 0px 10px;
   }
 
   
